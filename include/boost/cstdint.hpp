@@ -314,7 +314,7 @@ namespace boost
 
 # elif ULONG_MAX != 0xffffffff
 
-#    if ULONG_MAX == 18446744073709551615 // 2**64 - 1
+#    if ULONG_MAX == 0xffffffffffffffff // 2**64 - 1
      typedef long                 intmax_t;
      typedef unsigned long        uintmax_t;
      typedef long                 int64_t;
